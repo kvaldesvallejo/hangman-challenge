@@ -1,4 +1,5 @@
 import './App.css';
+import { HangImage } from './components/HangImage';
 import { letters } from "./helpers/letters";
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
   return (
     <div className="App"> 
       {/*  */}
-      <h3>Imagenes del Juego</h3>
+      <HangImage imageIndex={5} />
 
       <h3>_ _ _ _ _ _ _ _ _ _ _ _ _ _</h3>
 
